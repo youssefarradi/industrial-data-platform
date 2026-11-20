@@ -1,0 +1,28 @@
+# Secrets
+.env
+*.pem
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# Terraform
+terraform/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Airflow et données locales
+logs/
+data/
+
+# Mac
+.DS_Store
